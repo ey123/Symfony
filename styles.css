@@ -1,0 +1,266 @@
+
+root { 
+    display: block;
+}
+#Header
+{
+    margin: 0 auto;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    height: 130px;
+}
+#LoginHeader
+{
+    text-align: center;
+    background: url("../graphics/log-backt.gif") repeat-x scroll 0 0 transparent;
+    color: white;
+    font-size: 24px;
+    font-family: serif;
+    font-weight: bold;
+}
+ 
+#LoginMain
+{
+    text-align: right;
+}
+#LoginBox
+{
+    width:500px;
+    margin-left: auto;
+    margin-right:auto;
+    border: 2px solid black;
+}
+#Footer
+{
+    margin-top: 1em;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bolder;
+}
+body {
+    background: url("../graphics/background.png") repeat-x scroll 0 0 #c3bebd;
+    direction: rtl;
+    font-size: 14px;
+    text-align: center;
+}
+.submit
+{
+    background-color: bisque;
+    padding: 5px 7px;
+    outline: none;
+    border: solid 1px;
+    text-decoration: none;
+    cursor: pointer;
+    white-space: nowrap;
+    vertical-align: middle;
+    display: -moz-inline-box;
+    display: inline-block;
+    overflow: visible; 
+    color: black;
+}
+#Main {
+    margin-left: auto;
+    margin-right:auto;
+}
+#LogoImage
+{
+    float: left;
+    height: 100px;
+}
+#MainPage
+{
+    margin: 0 auto;
+    width: 40%;
+}
+#gbox_list
+{
+    margin: 0 auto;
+}
+
+#logoDiv
+{
+    min-height: 7.5em;
+}
+#helloMsg 
+{
+    position: relative;
+    top: 6.8em;
+    font-size: 12px;
+    color: white;
+    display: inline;
+}
+#helloMsg a
+{
+    display: inline;
+    color: white;
+}
+#buttonRow
+{
+
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-variant: normal;
+}
+.outerBG
+{
+    background-image: url(../graphics/buttonBG.png) ;
+    background-position: 0px -50px;
+    height: 50px;
+    width: 100px;
+    background-repeat: no-repeat;
+    border: solid 1px black;
+}
+.divIcon
+{
+    float:right;
+    display: inline;
+    margin: 3px 7px 0 0;
+    overflow: hidden;
+    text-align: right;
+}
+.ui-quicode-div
+{
+    background-image: url(../graphics/buttonBG.png) ;
+    background-position: 0px -50px;
+    height: 50px;
+    width: 100px;
+    background-repeat: no-repeat;
+    border: solid 1px black;
+    float: right;
+    display: inline-block;
+}
+.ui-quicode-span
+{
+    float:right;
+    display: inline;
+
+    vertical-align: middle;
+}
+.ui-quicode-text
+{
+  margin-top: 0.8em;
+  margin-right:0.2em;
+  font-size: 16px;
+    font-weight: bolder;
+    font-style: italic;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+.ui-quicode-icon
+{
+    background: url(../graphics/icons.png);
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 40px;
+    overflow: hidden;
+    margin-top: 0.2em;
+    margin-right: 0.2em;
+}
+.ui-quicode-icon-add
+{
+    background-position: -80px 0px;
+}
+
+.ui-quicode-icon-edit
+{
+    background-position: 0px -40px;
+}
+.ui-quicode-icon-del
+{
+    background-position: -120px -40px;
+}
+.ui-quicode-icon-link
+{
+    background-position: -40px -40px;
+}
+.ui-quicode-icon-code
+{
+    background-position: 120px -40px
+}
+#mainPlaceHolder
+{
+   margin-top: 5em;
+}
+#navMenu
+{
+  float:right;
+  width:100%;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+#navMenu ul
+{
+  margin: 0 auto;
+  list-style: none;
+  width: 44.1em;
+}
+#navMenu li {
+  float:right;
+  position: relative;
+  width: 11em;
+}
+
+#navMenu a {
+  line-height: 1.6;
+  color: #FFF;
+  width: 11em;
+}
+
+.shaham {
+    background-image: url("QuiCode_card_JPG.jpg");
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-position: center center;
+
+}
+/*
+#navMenu li li, #nav li li a { display: block; height: 1.5em }
+
+#navMenu li li a { width: auto; padding: 0 }
+
+#navMenu li:hover ul { top: 1.5em; left: 0 }
+*/
+
+#waitMsg
+{
+    width:90%;
+    margin-top: 30%;
+    margin-left:auto;
+    margin-right: auto;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 80px;
+}
+#middleDiv
+{
+    border: 2px black solid;
+    width: 40%;
+    clear:both;
+    float:right;
+}
+.spanMiniTemplate
+{
+ float:right;
+ border:1px solid black;
+ margin:5px;
+}
+.spanMiniTemplate b
+{
+    display:block;
+}
+.picDivMiniTemplate
+{
+    padding:10px;
+    margin:10px;
+    border:1px solid black;
+}
+#exampleOnPhone
+{
+    float:right;
+}
+#exampleOnPhone b
+{
+    font-size: 24px;
+}
+
